@@ -1,0 +1,23 @@
+class Mother:
+    def fun1(self):
+        print("She does cooking")
+
+class Son1(Mother):
+    def fun2(self):
+        print("I can play")
+
+class Son2(Mother):
+    def fun3(self):
+        print("I can walk")
+
+class GrandSon(Son1, Son2): 
+    def fun4(self):
+        print("I can draw")
+obj = GrandSon()
+
+obj.fun1()  
+obj.fun2()  
+obj.fun3()
+obj.fun4()  
+
+    
