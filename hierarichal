@@ -1,0 +1,16 @@
+*** hierarichal***
+  class mother():
+    def fun1(self):
+        print("she do cooking")
+class son1(mother):
+    def fun2(self):
+        print("i can play")
+class son2(mother):
+    def fun3(self):
+        print("i can walk")
+obj=son1()
+obj.fun1()
+obj.fun2()
+obj=son2()
+obj.fun1()
+obj.fun3()
